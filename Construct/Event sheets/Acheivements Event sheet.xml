@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Acheivements Event sheet</name>
+    <events>
+        <event-block sid="335981962326261">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="9258827342735369" type="System">
+                    <param id="0" name="Variable">A1</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;Y&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="4198381830126297" type="Player1_1">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1154731375454666">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="9670789831619414" type="System">
+                    <param id="0" name="Variable">A2</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;Y&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="6853055683802888" type="Player1_2">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9718933867250064">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="5292294125367754" type="System">
+                    <param id="0" name="Variable">A3</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;Y&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="5379844480614193" type="Player1_3">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8136238590013979">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="5899733690195223" type="System">
+                    <param id="0" name="Variable">A1</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;N&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="5353869511243464" type="Player1_1">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7670722127043876">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="1557231696062374" type="System">
+                    <param id="0" name="Variable">A2</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;N&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="1798357448418152" type="Player1_2">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3610723130397374">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="6968387995564192" type="System">
+                    <param id="0" name="Variable">A3</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;N&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="1867501834407064" type="Player1_3">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4706487304851993">
+            <conditions>
+                <condition id="17" name="On tap object" sid="5146127573688069" type="Touch">
+                    <param id="0" name="Object">HomeButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="4059075724704791" type="System">
+                    <param id="0" name="Layout">Menu Screen</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
